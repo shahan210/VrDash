@@ -1,6 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-  background: #000;
+body {
+  background: #121212;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.animateButton {
+  @apply transition-all ease-in-out duration-150;
+}
+.SignIn {
+  @apply border border-white py-2 px-4 rounded-lg hover:bg-white hover:text-black animateButton;
+}
+.Create {
+  @apply border border-orange-500 py-2 px-4 bg-orange-500 text-white rounded-lg hover:bg-orange-600 animateButton;
+}
+.devlop {
+  @apply text-7xl font-semibold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text;
+}
+.heading {
+  @apply mt-64 flex w-full flex-col justify-center text-center items-center;
+}
+.feature {
+  @apply text-center text-orange-500 bg-orange-500 bg-opacity-5 p-1 rounded-lg uppercase text-xs font-semibold;
 }
