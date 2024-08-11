@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <div className="p-2 fixed w-full bg-[#121212] opacity-90 ">
-      <div className=" text-white  grid grid-cols-3">
+      <div className=" text-white  grid grid-cols-3 items-center">
         <div className="flex gap-4 items-center">
           <img src={Logo} alt="Logo" className="h-10" />
           <p>VR World</p>
