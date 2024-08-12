@@ -2,10 +2,10 @@ import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="p-2 fixed w-full bg-[#121212] opacity-90 ">
-      <div className=" text-white  grid grid-cols-3 items-center">
-        <div className="flex gap-4 items-center">
-          <img src={Logo} alt="Logo" className="h-10" />
+    <div className=" fixed w-full bg-[#121212] opacity-90 ">
+      <div className=" text-white p-2  grid grid-cols-3 items-center">
+        <div className="flex gap-2 items-center">
+          <img src={Logo} alt="Logo" className="h-12 w-10" />
           <p>VR World</p>
         </div>
         <div className="flex gap-8 justify-center">
@@ -19,7 +19,7 @@ const Navbar = () => {
           <button className="Create">Create an account</button>
         </div>
       </div>
-      <hr className="h-px mt-3 bg-gray-600 border-0 " />
+      <hr className="h-px mt-3 bg-[#232323] border-0 " />
     </div>
   );
 };

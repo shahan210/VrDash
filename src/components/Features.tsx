@@ -1,9 +1,8 @@
 import { FeatureList } from "../constants/Index";
 const Features = () => {
-  console.log(FeatureList);
 
   return (
-    <div className="mt-10 flex flex-col justify-center">
+    <div className="mt-10 mb-20 flex flex-col justify-center">  
       <div className="flex justify-center">
         <p className="feature">Feature</p>
       </div>
@@ -21,7 +20,7 @@ const Features = () => {
                 <p className="text-xl">{feature.head}</p>
               </div>
               <div className="mt-6 ml-14">
-                <p className="text-[#737373] p-2 text-md">{feature.desc}</p>
+                <p className="desc">{feature.desc}</p>
               </div>
             </div>
           );
