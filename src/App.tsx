@@ -6,7 +6,7 @@ import Pricing from "./components/Pricing";
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <div className="max-h-screen  text-white flex justify-center">
         <div className="max-w-[80%] pt-20 px-4 pb-4">
           <HeadingSection />
