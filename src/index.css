@@ -37,3 +37,6 @@ body {
 .priceBox {
   @apply border p-10 border-[#3c3c3c] rounded-lg flex flex-col gap-10;
 }
+.reviewBox{
+  @apply border p-4 border-[#232323] bg-[#171717] flex flex-col justify-between rounded-lg
+}

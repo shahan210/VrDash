@@ -4,6 +4,7 @@ import HeadingSection from "./components/HeadingSection";
 import Workflow from "./components/Workflow";
 import Pricing from "./components/Pricing";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Workflow />
           <Pricing />
           <Reviews />
+          <Footer />
         </div>
       </div>
     </>

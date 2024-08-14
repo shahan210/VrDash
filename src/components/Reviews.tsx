@@ -4,7 +4,7 @@ const Reviews = () => {
     <div className="my-10 grid grid-cols-3 justify-center gap-10">
       {testimonials.map((item, i) => {
         return (
-          <div key={i} className="border p-4 border-[#232323] bg-[#171717] flex flex-col justify-between rounded-lg">
+          <div key={i} className="reviewBox">
             <p className="text-[#a5a3a3] text-md">{item.text}</p>
             <div className="flex gap-5 mt-5 items-center">
               <img src={item.image} alt="User" className="w-10 rounded-3xl" />
