@@ -31,3 +31,9 @@ body {
 .popular {
   @apply bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2;
 }
+.subscribe {
+  @apply mt-10 border text-2xl rounded-lg border-orange-900 py-2 px-4;
+}
+.priceBox {
+  @apply border p-10 border-[#3c3c3c] rounded-lg flex flex-col gap-10;
+}
