@@ -10,7 +10,7 @@ function App() {
     <>
       <Navbar />
       <div className="min-h-screen  text-white flex justify-center">
-        <div className="max-w-[80%] pt-20 px-4 pb-4">
+        <div className=" xl:max-w-[80%] pt-20 px-4 pb-4">
           <HeadingSection />
           <Features />
           <Workflow />

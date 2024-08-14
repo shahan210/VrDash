@@ -145,3 +145,9 @@ export const communityLinks = [
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
 ];
+export const navItems = [
+  { label: "Features", href: "#" },
+  { label: "Workflow", href: "#" },
+  { label: "Pricing", href: "#" },
+  { label: "Testimonials", href: "#" },
+];

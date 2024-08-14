@@ -1,17 +1,16 @@
 import { FeatureList } from "../constants/Index";
 const Features = () => {
-
   return (
-    <div className="mt-10 mb-20 flex flex-col justify-center">  
+    <div className="mt-10 mb-20 flex flex-col justify-center">
       <div className="flex justify-center">
-        <p className="feature">Feature</p>
+        <p className="feature">Features</p>
       </div>
       <div className="flex justify-center">
-        <p className="mt-10 text-6xl font-n">
-          Easily build <span className="devlop !font-normal">your code</span>{" "}
+        <p className="sideHeadings">
+          Easily build <span className="devlop !text-3xl md:!text-5xl !font-normal">your code</span>{" "}
         </p>
       </div>
-      <div className=" grid grid-cols-3 mt-20 gap-14">
+      <div className=" grid md:grid-cols-2 lg:grid-cols-3 mt-20 gap-14">
         {FeatureList.map((feature, i) => {
           return (
             <div key={i}>

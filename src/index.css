@@ -11,13 +11,13 @@ body {
   @apply transition-all ease-in-out duration-150;
 }
 .SignIn {
-  @apply border border-white py-2 px-4 rounded-lg hover:bg-white hover:text-black animateButton;
+  @apply border border-white py-2 px-2 xl:px-4 rounded-lg hover:bg-white hover:text-black animateButton;
 }
 .Create {
-  @apply border border-orange-500 py-2 px-4 bg-orange-500 text-white rounded-lg hover:bg-orange-600 animateButton;
+  @apply border border-orange-500 py-2 px-2 xl:px-4 bg-orange-500 text-white rounded-lg hover:bg-orange-600 animateButton;
 }
 .devlop {
-  @apply text-7xl font-semibold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text;
+  @apply md:text-6xl text-5xl lg:text-7xl font-semibold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text;
 }
 .heading {
   @apply mt-32 flex w-full flex-col justify-center text-center items-center;
@@ -26,17 +26,23 @@ body {
   @apply text-center text-orange-500 bg-orange-500 bg-opacity-5 p-1 rounded-lg uppercase text-xs font-semibold w-fit;
 }
 .desc {
-  @apply text-[#737373] p-2  text-lg;
+  @apply text-[#737373] p-2  sm:text-lg;
 }
 .popular {
   @apply bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2;
 }
 .subscribe {
-  @apply mt-10 border text-2xl rounded-lg border-orange-900 py-2 px-4;
+  @apply mt-10 border text-2xl rounded-lg border-orange-900 py-2 px-4 hover:scale-105 animateButton  hover:bg-[#1f1e1e];
 }
 .priceBox {
-  @apply border p-10 border-[#3c3c3c] rounded-lg flex flex-col gap-10;
+  @apply border p-10 border-[#3c3c3c] rounded-lg flex flex-col gap-10 md:min-w-[400px] lg:min-w-fit cursor-pointer;
 }
-.reviewBox{
-  @apply border p-4 border-[#232323] bg-[#171717] flex flex-col justify-between rounded-lg
+.reviewBox {
+  @apply border p-4 border-[#232323] bg-[#171717] flex flex-col justify-between rounded-lg;
+}
+.footerText {
+  @apply hover:text-white text-gray-500 animateButton my-2 text-sm cursor-pointer;
+}
+.sideHeadings {
+  @apply mt-10 md:text-5xl lg:text-6xl text-3xl text-center;
 }

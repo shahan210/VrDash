@@ -3,11 +3,11 @@ import { pricing } from "../constants/Index";
 const Pricing = () => {
   return (
     <div>
-      <p className="mt-10 text-6xl text-center">Pricing</p>
-      <div className="mt-5 grid grid-cols-3 gap-5 items-center">
+      <p className="sideHeadings">Pricing</p>
+      <div className="mt-5 grid lg:grid-cols-3 gap-5 items-center justify-center">
         {pricing.map((item, i) => {
           return (
-            <div key={i} className="priceBox">
+            <div key={i} className={item.title !== "Pro" ? "priceBox lg:!scale-95" : "priceBox"}>
               <h1 className="text-3xl">
                 {item.title}
                 {item.title === "Pro" && <span className="popular">(Most Popular)</span>}{" "}
